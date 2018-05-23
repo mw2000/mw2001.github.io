@@ -9,8 +9,7 @@ String.prototype.replaceAt=function(index, replacement) {
   return this.substr(0, index) + replacement+ this.substr(index + replacement.length);
 }
 
-// var contract_address = "n1zMrGx3Gy4f8qkKSfy3bMnkdcC96skk9fz";
-var contract_address = "n1qWh9YjSGMtmHzF8fBWdfAMAHKNsBG8HR8";
+var contract_address = "n1zMrGx3Gy4f8qkKSfy3bMnkdcC96skk9fz";
 
 $('.list-group-item').dblclick(function(){
   $(this).removeClass('disabled');
