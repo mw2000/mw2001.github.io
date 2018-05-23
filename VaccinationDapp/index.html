@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <title>Vaccine Scheduler</title>
+
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-9">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple dapp which helps to keep record of your vaccination history.</p>
+        <strong>[Click to select and double click to unselect]</strong>
+      </div>
+      <div class="col">
+        <button class="btn btn-lg btn-block btn-outline-light" onclick="saveVaccine()">Save</button>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+      <ul class="list-group-flush">
+        <h1>By Age 2</h1>
+        <br>
+        <hr>
+        <br>
+        <h3>HepB</h3>
+        <h5>Protects against viral infection of the liver</h5>
+        <br>
+        <li class="list-group-item" id="1">Dose 1</li>
+        <li class="list-group-item" id="2">Dose 2</li>
+        <li class="list-group-item" id="3">Dose 3</li>
+        <br>
+        <br>
+        <h3>RV</h3>
+        <h5>Protects against Rotavirus infection which causes severe diarrhea</h5>
+        <br>
+        <li class="list-group-item" id="4">Dose 1</li>
+        <li class="list-group-item" id="5">Dose 2</li>
+        <li class="list-group-item" id="6">Dose 3</li>
+        <br>
+        <br>
+        <h3>Hib</h3>
+        <h5>Protects against Hib bacterial infection which causes meningitis</h5>
+        <br>
+        <li class="list-group-item" id="7">Dose 1</li>
+        <li class="list-group-item" id="8">Dose 2</li>
+        <li class="list-group-item" id="9">Dose 3</li>
+        <li class="list-group-item" id="10">Dose 4</li>
+        <br>
+        <br>
+        <h3>PCV13</h3>
+        <h5>Protects against Pneumococcal disease which causes ear infection and pneumonia</h5>
+        <br>
+        <li class="list-group-item" id="11">Dose 1</li>
+        <li class="list-group-item" id="12">Dose 2</li>
+        <li class="list-group-item" id="13">Dose 3</li>
+        <li class="list-group-item" id="14">Dose 4</li>
+        <br>
+        <br>
+        <h3>HepA</h3>
+        <h5>Protects against Hepatatis A viral infection of the liver</h5>
+        <br>
+        <li class="list-group-item" id="15">Dose 1</li>
+        <li class="list-group-item" id="16">Dose 2</li>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1>By Age 7</h1>
+        <br>
+        <hr>
+        <br>
+        <h3>DTaP</h3>
+        <h5>Protects against Diphtheria, Tetanus and Pertussis</h5>
+        <br>
+        <li class="list-group-item" id="17">Dose 1</li>
+        <li class="list-group-item" id="18">Dose 2</li>
+        <li class="list-group-item" id="19">Dose 3</li>
+        <li class="list-group-item" id="20">Dose 4</li>
+        <li class="list-group-item" id="21">Dose 5</li>
+        <br>
+        <br>
+        <h3>IPV</h3>
+        <h5>Protects against Polio viral infection which causes meningitis and paralysis</h5>
+        <br>
+        <li class="list-group-item" id="22">Dose 1</li>
+        <li class="list-group-item" id="23">Dose 2</li>
+        <li class="list-group-item" id="24">Dose 3</li>
+        <li class="list-group-item" id="25">Dose 4</li>
+        <br>
+        <br>
+        <h3>MMR</h3>
+        <h5>Protects against Measles, Mumps and Rubella</h5>
+        <br>
+        <li class="list-group-item" id="26">Dose 1</li>
+        <li class="list-group-item" id="27">Dose 2</li>
+        <br>
+        <br>
+        <h3>Varicella</h3>
+        <h5>Protects against Chicken pox rash and blisters</h5>
+        <br>
+        <li class="list-group-item" id="28">Dose 1</li>
+        <li class="list-group-item" id="29">Dose 2</li>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1>Ages 11-16</h1>
+        <br>
+        <hr>
+        <br>
+        <h3>HPV</h3>
+        <h5>Protects against Human papillomavirus which causes genital warts and cancer</h5>
+        <br>
+        <li class="list-group-item" id="30">Dose 1</li>
+        <li class="list-group-item" id="31">Dose 2</li>
+        <li class="list-group-item" id="32">Dose 3</li>
+        <br>
+        <br>
+        <h3>Meningococcal</h3>
+        <h5>Protects against Bacterial Infection which causes meningitis and blood infection</h5>
+        <br>
+        <li class="list-group-item" id="33">Dose 1</li>
+        <li class="list-group-item" id="34">Dose 2</li>
+        <br>
+        <br>
+        <h3>Tdap</h3>
+        <h5>Protects against Diphtheria, Tetanus and Pertussis</h5>
+        <br>
+        <li class="list-group-item" id="35">Dose 1</li>
+        <br>
+        <br>
+
+        <h1>Ages 60+</h1>
+        <br>
+        <hr>
+        <br>
+        <h3>Herpes Zoster</h3>
+        <h5>Protects against Shingles rash</h5>
+        <br>
+        <li class="list-group-item" id="36">Dose 1</li>
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </ul>
+
+    </div>
+    <div class="col"></div>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/nebPay.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
