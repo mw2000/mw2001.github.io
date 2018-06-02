@@ -5,13 +5,13 @@ var nebPay = new NebPay();
 
 var vaccineArray = "00000000000000000000000000000000000000";
 
+// var nasme= 'n1kzpjFz4Xcn49bL8ey2RsvsaAZ1HCcEFug';
+
 String.prototype.replaceAt=function(index, replacement) {
   return this.substr(0, index) + replacement+ this.substr(index + replacement.length);
 }
 
-// var contract_address = "n1zMrGx3Gy4f8qkKSfy3bMnkdcC96skk9fz";
-// var contract_address = "n1qWh9YjSGMtmHzF8fBWdfAMAHKNsBG8HR8";
-var contract_address = "n1hb58JDbWBZuXFUCcmGCtWHf3AvLAPhZBg"; //TestNet v0.2
+var contract_address = "n1hb58JDbWBZuXFUCcmGCtWHf3AvLAPhZBg";
 
 $('.list-group-item').dblclick(function(){
   $(this).removeClass('disabled');
