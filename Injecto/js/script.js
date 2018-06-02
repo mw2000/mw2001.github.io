@@ -38,6 +38,15 @@ $(document).ready(function(){
   });
 });
 
+$('#demo-modal-3').on('shown.bs.modal', function (e) {
+  $('#blurEnabler').addClass('transparentBox');
+});
+
+$('#demo-modal-3').on('hidden.bs.modal', function (e) {
+  $('#blurEnabler').removeClass('transparentBox');
+});
+
+
 function onDocumentLoad(resp) {
   if(typeof(resp)==='string' && resp.startsWith("Error")) {
         throw new Error(resp)
@@ -62,11 +71,26 @@ function onDocumentLoad(resp) {
   }
 }
 
+$('#launchButton').click(function(){
+  nebPay.simulateCall(contract_address, 0, "getVaccines", null, {
+    listener: onDocumentLoad
+  });
+});
+
 //to check if the extension is installed
 //if the extension is installed, var "webExtensionWallet" will be injected in to web page
 if(typeof(webExtensionWallet) === "undefined"){
-    alert ("Extension wallet is not installed, redirecting you to more information.");
+    $('#alertModal').modal('show');
+    $('#blurEnabler').addClass('transparentBox');
+    $("#launchButton").addClass('disabled');
+    $('#launchButton').attr('data-toggle', "")
+    $('#launchButton').attr('data-target', "")
 }
+
+$('#alertModal').on('hidden.bs.modal', function (e) {
+  $('#blurEnabler').removeClass('transparentBox');
+});
+
 
 $('#address').keypress(function (e) {
  var key = e.which;
