@@ -4,7 +4,7 @@
       var NebPay = require("nebpay");
       var nebPay = new NebPay();
 
-      var contract_address = "n1hb58JDbWBZuXFUCcmGCtWHf3AvLAPhZBg"; //TestNet v0.2
+      var contract_address = "n1ytzwPRy9i9GgSeb1j1qcNSjZo7JHNTLo4"; 
       var vaccineArray = "00000000000000000000000000000000000000";
 
       console.log(window.location.search.substr(1));

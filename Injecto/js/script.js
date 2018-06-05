@@ -11,7 +11,7 @@ String.prototype.replaceAt=function(index, replacement) {
   return this.substr(0, index) + replacement+ this.substr(index + replacement.length);
 }
 
-var contract_address = "n1hb58JDbWBZuXFUCcmGCtWHf3AvLAPhZBg";
+var contract_address = "n1ytzwPRy9i9GgSeb1j1qcNSjZo7JHNTLo4";
 
 $('.list-group-item').dblclick(function(){
   $(this).removeClass('disabled');
