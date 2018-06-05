@@ -4,6 +4,7 @@ var NebPay = require("nebpay");
 var nebPay = new NebPay();
 
 var vaccineArray = "00000000000000000000000000000000000000";
+var contract_address = "n1ytzwPRy9i9GgSeb1j1qcNSjZo7JHNTLo4";
 
 // var nasme= 'n1kzpjFz4Xcn49bL8ey2RsvsaAZ1HCcEFug';
 
@@ -11,7 +12,6 @@ String.prototype.replaceAt=function(index, replacement) {
   return this.substr(0, index) + replacement+ this.substr(index + replacement.length);
 }
 
-var contract_address = "n1ytzwPRy9i9GgSeb1j1qcNSjZo7JHNTLo4";
 
 $('.list-group-item').dblclick(function(){
   $(this).removeClass('disabled');
