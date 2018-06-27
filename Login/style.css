@@ -14,7 +14,6 @@ html, body{
     background: url('http://getwallpapers.com/wallpaper/full/9/1/e/168436.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
     margin-bottom:0px!important;
     border-radius:0px!important;
 }
@@ -58,7 +57,7 @@ h4{
 .form-container{
     border:3px 3px 3px 3px white;
     background-color: rgba(0, 0, 0, 0.8);
-    position: absolute;;
+    position: relative;
     width: 100%;
     color:white;
     border-radius: 1em;
