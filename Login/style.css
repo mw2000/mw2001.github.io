@@ -16,6 +16,8 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom:0px;
+    border-radius:0px;
 }
 
 hr{
