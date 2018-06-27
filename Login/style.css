@@ -16,8 +16,8 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom:0px;
-    border-radius:0px;
+    margin-bottom:0px!important;
+    border-radius:0px!important;
 }
 
 hr{
@@ -68,5 +68,6 @@ h4{
 
 @-ms-viewport{
     width: device-width;
+    height:device-height
 }
   
