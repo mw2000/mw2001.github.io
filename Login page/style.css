@@ -1,0 +1,70 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-item{
+    font-size: 1.75em;
+    /* margin-left: 1em;
+    margin-right: 1em */
+}
+
+.jumbotron{
+    height: 100%;
+    background: url('http://getwallpapers.com/wallpaper/full/9/1/e/168436.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    background: white;
+}
+
+h4{
+    font-family: 'Dosis', sans-serif;
+    color:white;
+
+}
+
+.header.container{
+    color: white;
+    text-align: center;
+}
+
+.header h1{
+
+    font-family: 'Pacifico', cursive;
+    font-size: 5em;
+
+}
+
+.btn-primary{
+    background-color: rgba(75, 73, 135, 0.3);
+    border: none;
+}
+
+.header h3{
+    font-family: 'Dosis', sans-serif;
+}
+
+.form-container h3{
+    font-family: 'Dosis', sans-serif;
+    text-align:center;
+}
+
+.form-container{
+    border:3px 3px 3px 3px white;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    color:white;
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+@-ms-viewport{
+    width: device-width;
+}
+  
