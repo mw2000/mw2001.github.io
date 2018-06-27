@@ -14,7 +14,7 @@ html, body{
     background: url('http://getwallpapers.com/wallpaper/full/9/1/e/168436.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position:fixed;
+    position: absolute;
     margin-bottom:0px!important;
     border-radius:0px!important;
 }
