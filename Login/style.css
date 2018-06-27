@@ -12,7 +12,6 @@ html, body{
 .jumbotron{
     height: 100%;
     background: url('http://getwallpapers.com/wallpaper/full/9/1/e/168436.jpg');
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,6 +67,5 @@ h4{
 
 @-ms-viewport{
     width: device-width;
-    height:device-height
 }
   
