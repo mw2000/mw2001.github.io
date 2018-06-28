@@ -5,7 +5,7 @@ html, body{
 }
 
 body{
-    height: 110%;
+    height: 100%;
 }
 
 .nav-item{
@@ -29,9 +29,9 @@ body{
 
 
 html {
-    background: url('bg3.jpg') no-repeat center center fixed;
+    background: url('bg3.jpg') no-repeat center fixed;
     background-size: cover;
-    height: 110%;
+    height: 100%;
   }
 
 /* .jumbotron{
