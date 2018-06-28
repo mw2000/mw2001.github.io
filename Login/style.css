@@ -44,6 +44,13 @@ html {
     border-radius:0px;
 } */
 
+
+.container.ppcontainer{
+    height:20em;
+    overflow-y: scroll;
+    overflow-x:hidden
+}
+
 .form-control{
     background-color:rgba(0, 0, 0, 0);
     color:white;
@@ -66,7 +73,7 @@ h4, h5{
 
 }
 
-.header.container{
+.header.container-fluid{
     color: white;
     text-align: center;
 }
