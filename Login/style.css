@@ -1,8 +1,11 @@
 html, body{
-    height:120%; 
+    height:110%; 
     background-color: transparent;  
-    min-height: 100%;
     min-width:100%; 
+}
+
+body{
+    height: 110%;
 }
 
 .nav-item{
@@ -28,8 +31,7 @@ html, body{
 html {
     background: url('bg3.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
+    height: 110%;
   }
 
 /* .jumbotron{
@@ -99,8 +101,7 @@ h4, h5{
     padding-bottom: 1em;
 }
 
-@-ms-viewport{
+@viewport{
     width: device-width;
-    /* height: device-height; */
 }
   
