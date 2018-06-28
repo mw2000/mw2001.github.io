@@ -58,6 +58,7 @@ h4, h5{
 .header.container{
     color: white;
     text-align: center;
+    position:relative;
 }
 
 .header h1{
@@ -88,6 +89,7 @@ h4, h5{
     border-radius: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+    position:relative;
 }
 
 @-ms-viewport{
