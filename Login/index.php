@@ -3,7 +3,7 @@
   <head>
         <title>FreeLifers</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no, height=device-height" />
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Dosis|Pacifico" rel="stylesheet">
@@ -19,7 +19,7 @@
       </div>
       <div class="row">
           <div class="col"></div>
-          <div class="col-10 col-sm-8 col-md-6"><h3>Failure is not an option</h3></div>
+          <div class="col-10 col-sm-8 col-md-6"><h3></h3></div>
           <div class="col"></div>
         </div>
     </div>
