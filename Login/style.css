@@ -73,6 +73,11 @@ h4, h5{
 
 }
 
+.error404{
+    color: white;
+    margin-top:3em;
+}
+
 .header.container-fluid{
     color: white;
     text-align: center;
