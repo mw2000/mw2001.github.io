@@ -75,13 +75,23 @@ h4, h5{
 
 .error404{
     color: white;
-    margin-top:3em;
+    margin-top:5em;
 }
 
 .header.container-fluid{
     color: white;
     text-align: center;
 }
+
+.header.container-fluid div.error404 h1{
+    font-family: 'Dosis', sans-serif!important;
+}
+
+.header.container-fluid div.error404{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+}
+
 
 .header h1{
 
