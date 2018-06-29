@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
   <head>
-        <title>FreeLifers</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no, height=device-height" />
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Dosis|Pacifico" rel="stylesheet">
+
+    <title>FreeLifers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no, height=device-height" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Pacifico" rel="stylesheet">
 
 
   </head>
@@ -17,14 +18,11 @@
         <div class="col-12 col-sm-8 col-md-6"><h1>FreeLifers</h1></div>
         <div class="col"></div>
       </div>
-      <div class="row">
-          <div class="col"></div>
-          <div class="col-10 col-sm-8 col-md-6"><h3></h3></div>
-          <div class="col"></div>
-        </div>
     </div>
+
     <br>
     <br>
+
     <div class="container-fluid">
       <div class="row">
         <div class="col"></div>
@@ -46,6 +44,7 @@
         <div class="col"></div>
       </div>
     </div>
+
     <script src="jquery.js"></script>
     <script src="bootstrap.min.js"></script>
     <script src="script.js"></script>
