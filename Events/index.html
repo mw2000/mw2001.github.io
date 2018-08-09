@@ -72,7 +72,7 @@
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response);
       document.getElementById('status').innerHTML =
-        'Thanks for logging in, ' + response + '!';
+        'Thanks for logging in, ' + JSON.parse(response) + '!';
     });
   }
 
