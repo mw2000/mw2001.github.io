@@ -1,9 +1,12 @@
 #name-row{
   position: absolute;
   z-index: 2;
-  margin-top: 6%;
+  top:50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   background: transparent!important;
   width:100%;
+  height: 50%;
 }
 
 html, body {
@@ -11,6 +14,28 @@ html, body {
   height: 100%;
   width: 100%;
   padding: none;
+  position: fixed;
+}
+
+#copy {
+  width:100%;
+  color:#686868;
+  background: transparent;
+
+  /* background-color: #4CAF50; Green */
+  border: none;
+  /* color: white; */
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #686868;
+  /* font-size: 16px; */
+}
+
+#copy:hover {
+  background: #686868;
+  color: white;
 }
 
 #name {
@@ -18,6 +43,36 @@ html, body {
   text-align: center;
   font-family: 'Literata', serif;
 }
+
+#about-title {
+  
+  text-align: center;
+  height: 20%;
+  
+}
+
+#about-title-h2 {
+  margin-top:40%;
+  margin-bottom:40%;
+  background: #f8f8f8;
+  color:#686868;
+  border-radius: 20%;
+}
+
+#about-sum {
+  background: white;
+  text-align: center;
+  font-family: 'Literata', serif;
+}
+
+.nav-link , .navbar-brand{
+  color: black;
+  text-align: center;
+  font-family: 'Literata', serif;
+  text-decoration: none;
+}
+
+
 
 #name-des {
   margin-top: 6%;
@@ -40,15 +95,15 @@ html, body {
 
 #jumbo {
   margin-top: 0px!important;
-  padding: none;
-  height:95%;
-  width: 90%;
+  padding-top: 0px;
+  height:100%;
+  width: 100%;
   z-index: 1;
   background: transparent
 }
 
 #avatar {
-  height: 50%;
+  height: 45%;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
@@ -58,9 +113,10 @@ html, body {
 
 #name-box {
   background: #f8f8f8;
-  padding-top: 7%;
+  padding-top: 10%;
   padding-bottom: 10%;
-  width: 80%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   border-radius: 10%;
+  /* box-shadow: -2px 2px #DCDCDC; */
 }

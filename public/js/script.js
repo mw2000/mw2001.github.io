@@ -112,3 +112,20 @@ ext = {
 particlesJS('jumbo', ext, function() {
   console.log('callback - particles.js config loaded');
 });
+
+function aboutme() {
+  $('#name-row').css('top', '50%');
+  document.getElementById('name-row').innerHTML = "<div class='col'></div><div class='col-md-2' id='about-title'>  <h2 id='about-title-h2'>Hi, I'm Mihir!</h2></div><div class='col-md-4' id='about-sum'>  <p>    I am a sophomore pursuing Computer Engineering at University of California, Davis.    I'm currently an undergraduate researcher at ExpoLAB UC Davis, researching the applications of Blockchain in    sustainability and waste management under Prof. Mohammad Sadoghi. This research led me to co-found PlastiCoin,    a blockchain-based incentivized way of recycling plastic. In addition to this, I also work as a finance associate    for SacHacks, contacting industry professionals to raise money for the first intercollegiate hackathon in the    greater Sacramento area.  </p></div><div class='col'></div>"
+}
+
+function mihir() {
+  $('#name-row').css('top', '50%');
+  document.getElementById('name-row').innerHTML = "        <div class='col'></div>                  <div class='col-lg-3 col-md-4 col-sm-6'>                    <div class='container' id='name-box'>            <img src='public/img/Avatar.jpg' id='avatar'>            <h2 id='name'>Mihir Wadekar</h2>            <h6 id='name-des'>CE Major @ UC Davis 2022, Undergrad Researcher and PlastiCoin Co-Founder</h6>                        <h2 class='row' id='icon-row'>              <div class='col'></div>              <div class='col-3'>                <a class='fa fa-linkedin' aria-hidden='true' href='https://www.linkedin.com/in/mihir-wadekar-6bb691164/'></a>              </div>              <div class='col-3'>                <a class='fa fa-github' aria-hidden='true' href='https://github.com/mw2000'></a>              </div>                            <div class='col'></div>            </h2>          </div>          </div>                <div class='col'></div>          </div>"
+}
+
+function cv() {
+  $('#name-row').css('top', '40%');
+  document.getElementById('name-row').innerHTML = "<div class='col'></div><div class='col-5'>  <div class='row'>    <div class='col'></div>    <div class='col-md-3'>      <button id='copy'>Grab a copy!</button>    </div>    <div class='col'></div>  </div>    <img id='resume' src='public/img/Resume.png' width='100%' height=' 100%' /></div><div class='col'></div>"
+}
+
+window.onload = mihir();
