@@ -7,7 +7,6 @@
   background: transparent!important;
   width:100%;
   height: 50%;
-  /* overflow: scroll; */
 }
 
 .name-row-scroll {
@@ -28,7 +27,6 @@ html, body {
   padding: none;
   position: top;
   z-index: 0;
-  /* position: fixed; */
   font-family: 'Literata', serif;
   overflow-x:hidden;
   overflow-y:hidden;
@@ -63,11 +61,7 @@ html, body {
   background: transparent;
   margin-top:7%;
   margin-bottom:7%;
-
-  /* background-color: #4CAF50; Green */
   border: none;
-  /* color: white; */
-  /* padding: 15px 32px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -127,7 +121,6 @@ p {
   color: #686868;
   text-align: center;
   font-family: 'Literata', serif;
-  /* font-size: 15px; */
   font-size: 2vh!important;
 }
 
@@ -156,8 +149,6 @@ p {
 #avatar {
   height: 18vh;
   width: 18vh;
-  /* margin-left: 25%; */
-  /* margin-right: 25%; */
   margin-bottom: 7%;
   border-radius: 40%;
 }
@@ -166,14 +157,11 @@ p {
   background: #f8f8f8;
   padding-top: 10%;
   padding-bottom: 10%;
-  /* position: fixed; */
   width: 100%;
   height: 100%;
   border-radius: 10%;
   z-index:6;
   overflow-y: scroll;
-  /* overflow: auto */
-  /* box-shadow: -2px 2px #DCDCDC; */
 }
 
 
@@ -211,16 +199,12 @@ hr {
 
 @media (min-width: 768px) {
   .navbar-nav > li > a {
-    /* (80px - line-height of 27px) / 2 = 26.5px*/
     padding-top: 26.5px;
     padding-bottom: 26.5px;
     line-height: 50px;
     text-align: center;
-    /* font-size: 2vh; */
   }
-  /* .navbar-collapse{
-    height: 10%;
-  } */
+
   .navbar-toggler {
     height: 60px;
     width: 10%;
@@ -240,12 +224,7 @@ hr {
   .col-12 {
     background: transparent;
   }
-  .navbar-brand {
-    /* font-size: 2.5vh; */
-    /* width: 100%; */
-    /* text-align: center; */
-  }
-
+  
   #name-box {
     background: transparent;
   }
