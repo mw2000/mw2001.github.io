@@ -150,11 +150,6 @@ function cv() {
   // $('#navbarTogglerDemo02').toggle();
 }
 
-$(document).ready(function () {
-  $(".navbar-nav li a").click(function(event) {
-    $(".navbar-collapse").collapse('hide');
-  });
-});
 
 function startup() {
   navbar_font();
@@ -163,5 +158,8 @@ function startup() {
 
 window.onload = startup();
 
-
-// window.onresize = navbar_font();
+$(document).ready(function () {
+  $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+})
