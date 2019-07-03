@@ -7,6 +7,13 @@
   background: transparent!important;
   width:100%;
   height: 50%;
+  /* overflow: scroll; */
+}
+
+.name-row-scroll {
+  overflow-y: scroll;
+  top: 55%!important;
+  height: 90%!important;
 }
 
 nav {
@@ -24,7 +31,7 @@ html, body {
   /* position: fixed; */
   font-family: 'Literata', serif;
   overflow-x:hidden;
-  /* overflow-y:hidden; */
+  overflow-y:hidden;
 }
 
 #cv-title {
@@ -229,6 +236,13 @@ hr {
     min-height: 10%;
   }
 
+  #resume {
+    background: transparent!important;
+  }
+
+  .col-12 {
+    background: transparent;
+  }
   .navbar-brand {
     /* font-size: 2.5vh; */
     /* width: 100%; */
