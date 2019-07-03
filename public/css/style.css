@@ -1,12 +1,16 @@
 #name-row{
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   top:50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   background: transparent!important;
   width:100%;
   height: 50%;
+}
+
+nav {
+  z-index: 10;
 }
 
 html, body {
@@ -139,7 +143,6 @@ p {
   height:100%;
   width: 100%;
   z-index: 3;
-  /* overflow: auto; */
   background: transparent
 }
 
@@ -156,10 +159,12 @@ p {
   background: #f8f8f8;
   padding-top: 10%;
   padding-bottom: 10%;
+  /* position: fixed; */
   width: 100%;
   height: 100%;
   border-radius: 10%;
   z-index:6;
+  overflow-y: scroll;
   /* overflow: auto */
   /* box-shadow: -2px 2px #DCDCDC; */
 }
@@ -183,6 +188,23 @@ hr {
   font-size: 1.75vh!important;
 }
 
+@media (max-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px*/
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 2vh;
+  }
+
+  .navbar-brand {
+    font-size: 2.5vh;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-nav > li > a {
     /* (80px - line-height of 27px) / 2 = 26.5px*/
@@ -190,6 +212,7 @@ hr {
     padding-bottom: 26.5px;
     line-height: 50px;
     text-align: center;
+    /* font-size: 2vh; */
   }
   /* .navbar-collapse{
     height: 10%;
@@ -204,6 +227,12 @@ hr {
   }
   .navbar {
     min-height: 10%;
+  }
+
+  .navbar-brand {
+    /* font-size: 2.5vh; */
+    /* width: 100%; */
+    /* text-align: center; */
   }
 
   #name-box {
