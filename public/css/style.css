@@ -8,11 +8,16 @@
   width:100%;
   height: 50%;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 
-.name-row-scroll {
+.name-row-scroll::-webkit-scrollbar {
   overflow-y: scroll;
   top: 55%!important;
   height: 90%!important;
+  -ms-overflow-style: none;
+  display: none;
 }
 
 nav {
