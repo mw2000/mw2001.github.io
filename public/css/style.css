@@ -12,12 +12,12 @@
   display: none;
 }
 
-.name-row-scroll::-webkit-scrollbar {
+.name-row-scroll {
   overflow-y: scroll;
   top: 55%!important;
   height: 90%!important;
   -ms-overflow-style: none;
-  display: none;
+  /* display: none; */
 }
 
 nav {
